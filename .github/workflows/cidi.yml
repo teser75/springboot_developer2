@@ -40,5 +40,5 @@ jobs:
           application_name: spring-boot5
           environment_name: Spring-boot5-env
           version_label: github-action-${{steps.current-time.outputs.formattedTime}}
-          region: ap-northeast-2
+          region: us-east-1
           deployment_package: ./build/libs/${{env.artifact}}
